@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightGray;
+    font-size: 20px;
+}
+
+h1 {
+    background-color:whiteblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    width: 40%;
+    margin: 0 aut;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea, select {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color:green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid grey;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+.container{
+    color: #green;
+     background-color: #fff;
+    font-family: cursive;
+    font-size: 18px;
+}
+.nounderline {
+  text-decoration: none;
+}
+.underline {
+  text-decoration: underline;
+}
+a:link {
+  background-color: yellow;
+  font-size: 20px;
+}
+
+a:visited {
+  background-color: cyan;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: green;
+  font-size: 20px;
+}
+
+a:active {
+  background-color: green;
+  font-size: 20px;
+}
